@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var bookItems = BookItems()
     var body: some View {
-        Text("Hello, world!")
+        Text(bookItems.books[0].author)
             .padding()
     }
 }

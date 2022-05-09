@@ -11,6 +11,10 @@
 		F7AC187D2829798B00EBDF46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AC187C2829798B00EBDF46 /* ContentView.swift */; };
 		F7AC187F2829798D00EBDF46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7AC187E2829798D00EBDF46 /* Assets.xcassets */; };
 		F7AC18822829798D00EBDF46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7AC18812829798D00EBDF46 /* Preview Assets.xcassets */; };
+		F7AC188B282979DA00EBDF46 /* BookItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AC188A282979DA00EBDF46 /* BookItem.swift */; };
+		F7AC188F28297AC100EBDF46 /* DataFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AC188E28297AC100EBDF46 /* DataFunctions.swift */; };
+		F7AC189128297AEF00EBDF46 /* ExampleBook.json in Resources */ = {isa = PBXBuildFile; fileRef = F7AC189028297AEF00EBDF46 /* ExampleBook.json */; };
+		F7AC189428297BC700EBDF46 /* BookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AC189328297BC700EBDF46 /* BookViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		F7AC187C2829798B00EBDF46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F7AC187E2829798D00EBDF46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7AC18812829798D00EBDF46 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F7AC188A282979DA00EBDF46 /* BookItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookItem.swift; sourceTree = "<group>"; };
+		F7AC188E28297AC100EBDF46 /* DataFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFunctions.swift; sourceTree = "<group>"; };
+		F7AC189028297AEF00EBDF46 /* ExampleBook.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ExampleBook.json; sourceTree = "<group>"; };
+		F7AC189328297BC700EBDF46 /* BookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,10 @@
 			isa = PBXGroup;
 			children = (
 				F7AC187A2829798B00EBDF46 /* BookAppApp.swift */,
-				F7AC187C2829798B00EBDF46 /* ContentView.swift */,
+				F7AC18882829799C00EBDF46 /* Models */,
+				F7AC189228297B2000EBDF46 /* BookViewModels */,
+				F7AC1889282979B500EBDF46 /* Views */,
+				F7AC188D28297A8800EBDF46 /* DataService */,
 				F7AC187E2829798D00EBDF46 /* Assets.xcassets */,
 				F7AC18802829798D00EBDF46 /* Preview Content */,
 			);
@@ -65,6 +76,39 @@
 				F7AC18812829798D00EBDF46 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F7AC18882829799C00EBDF46 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F7AC188A282979DA00EBDF46 /* BookItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F7AC1889282979B500EBDF46 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F7AC187C2829798B00EBDF46 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F7AC188D28297A8800EBDF46 /* DataService */ = {
+			isa = PBXGroup;
+			children = (
+				F7AC188E28297AC100EBDF46 /* DataFunctions.swift */,
+				F7AC189028297AEF00EBDF46 /* ExampleBook.json */,
+			);
+			path = DataService;
+			sourceTree = "<group>";
+		};
+		F7AC189228297B2000EBDF46 /* BookViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F7AC189328297BC700EBDF46 /* BookViewModel.swift */,
+			);
+			path = BookViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7AC18822829798D00EBDF46 /* Preview Assets.xcassets in Resources */,
+				F7AC189128297AEF00EBDF46 /* ExampleBook.json in Resources */,
 				F7AC187F2829798D00EBDF46 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +182,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7AC189428297BC700EBDF46 /* BookViewModel.swift in Sources */,
 				F7AC187D2829798B00EBDF46 /* ContentView.swift in Sources */,
+				F7AC188F28297AC100EBDF46 /* DataFunctions.swift in Sources */,
+				F7AC188B282979DA00EBDF46 /* BookItem.swift in Sources */,
 				F7AC187B2829798B00EBDF46 /* BookAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
