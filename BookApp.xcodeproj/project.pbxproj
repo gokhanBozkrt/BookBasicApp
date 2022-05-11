@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F70729D1282C475400C12FFF /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70729D0282C475400C12FFF /* SwiftUIView.swift */; };
+		F720BDF2282ADFFC006EFC9D /* SingleBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F720BDF1282ADFFC006EFC9D /* SingleBookView.swift */; };
+		F720BDF4282AE4D9006EFC9D /* NewEditBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F720BDF3282AE4D9006EFC9D /* NewEditBookView.swift */; };
 		F7AC187B2829798B00EBDF46 /* BookAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AC187A2829798B00EBDF46 /* BookAppApp.swift */; };
 		F7AC187D2829798B00EBDF46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AC187C2829798B00EBDF46 /* ContentView.swift */; };
 		F7AC187F2829798D00EBDF46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7AC187E2829798D00EBDF46 /* Assets.xcassets */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F70729D0282C475400C12FFF /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		F720BDF1282ADFFC006EFC9D /* SingleBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleBookView.swift; sourceTree = "<group>"; };
+		F720BDF3282AE4D9006EFC9D /* NewEditBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEditBookView.swift; sourceTree = "<group>"; };
 		F7AC18772829798B00EBDF46 /* BookApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7AC187A2829798B00EBDF46 /* BookAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookAppApp.swift; sourceTree = "<group>"; };
 		F7AC187C2829798B00EBDF46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,6 +72,7 @@
 				F7AC188D28297A8800EBDF46 /* DataService */,
 				F7AC187E2829798D00EBDF46 /* Assets.xcassets */,
 				F7AC18802829798D00EBDF46 /* Preview Content */,
+				F70729D0282C475400C12FFF /* SwiftUIView.swift */,
 			);
 			path = BookApp;
 			sourceTree = "<group>";
@@ -90,6 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				F7AC187C2829798B00EBDF46 /* ContentView.swift */,
+				F720BDF3282AE4D9006EFC9D /* NewEditBookView.swift */,
+				F720BDF1282ADFFC006EFC9D /* SingleBookView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -183,8 +192,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7AC189428297BC700EBDF46 /* BookViewModel.swift in Sources */,
+				F720BDF4282AE4D9006EFC9D /* NewEditBookView.swift in Sources */,
+				F70729D1282C475400C12FFF /* SwiftUIView.swift in Sources */,
 				F7AC187D2829798B00EBDF46 /* ContentView.swift in Sources */,
 				F7AC188F28297AC100EBDF46 /* DataFunctions.swift in Sources */,
+				F720BDF2282ADFFC006EFC9D /* SingleBookView.swift in Sources */,
 				F7AC188B282979DA00EBDF46 /* BookItem.swift in Sources */,
 				F7AC187B2829798B00EBDF46 /* BookAppApp.swift in Sources */,
 			);
